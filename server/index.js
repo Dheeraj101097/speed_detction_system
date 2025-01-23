@@ -24,8 +24,8 @@ app.post("/speed", (req, res) => {
 app.get("/speed", (req, res) => {
   // res.json({speed: "1000mbps"})
   // console.log(res)
-  console.log("Data received:", req.body);
-  res.send("Data received successfully");
+  console.log("Data received:get", req.body);
+  res.send("Data received successfully get request");
 });
 
 // async (params) => {
